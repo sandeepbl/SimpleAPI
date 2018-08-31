@@ -18,6 +18,6 @@
 
 - use curl command as below for POST:
     
-  `curl -X POST -H "Content-Type: application/json" -d {"input":"string"}' "http://localhost:9999/api"`
+  `curl -X POST -H "Content-Type: application/json" -d '{"input":"string"}' "http://localhost:9999/api"`
 
 > Note: No error handling or unit tests included.
